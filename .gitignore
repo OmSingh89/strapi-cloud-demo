@@ -129,3 +129,22 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+############################
+# Docker
+############################
+
+docker-compose.override.yml
+.docker/
+*.dockerfile
+.dockerignore
+
+
+############################
+# Docker volumes and data
+############################
+
+**/data/
+**/volumes/
+docker-compose.yml
+Dockertfile.dev

@@ -11,6 +11,7 @@
     "develop": "strapi develop",
     "docker:up": "docker compose up --build",
     "docker:down": "docker compose down",
+    "migrate": "strapi migrations:up",
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
