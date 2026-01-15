@@ -1,0 +1,15 @@
+# Exclude local artifacts from the Docker build context
+.git
+.gitignore
+node_modules
+build
+dist
+.cache
+.tmp
+coverage
+.env
+.env.*
+Dockerfile*
+docker-compose*.yml
+public/uploads
+!.gitkeep
